@@ -5,11 +5,13 @@ import Lemonade from './Lemonade';
 import Lobster from './Lobster';
 import Pizza from './Pizza';
 import VendingMachine from './VendingMachine';
+import Navbar from './Navbar';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path='/' element={<VendingMachine/>} />
           <Route path='/pizza' element={<Pizza/>} />
