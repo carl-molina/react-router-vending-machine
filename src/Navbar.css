@@ -9,6 +9,10 @@
   margin-left: 20px;
 }
 
+.Navbar nav ul li:hover {
+  background-color: lightcoral;
+}
+
 a.active {
   color: blue;
   background-color: green;
